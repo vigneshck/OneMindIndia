@@ -1,0 +1,24 @@
+
+<div class="container">
+    <h2>Available Products List</h2>
+    <br>        
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Product Id</th>
+          <th>Product Name</th>
+          <th>Available Quantity</th>
+          <th>Order Item</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = "let item of datalist; let i = index">
+          <td>{{item.productId}}</td>
+          <td>{{item.productName}}</td>
+          <td>{{item.availableQuantity}}</td>
+          <td><span><button type="button" class="btn btn-primary" (click)="orderItem(item, i)">Order</button></span></td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+  

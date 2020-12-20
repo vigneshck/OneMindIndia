@@ -1,0 +1,18 @@
+.navbar-inverse {
+    background-color: #050c38;
+    border-color: #050c38;
+}
+
+.nav-pos{
+    float: right !important;
+}
+
+@media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}

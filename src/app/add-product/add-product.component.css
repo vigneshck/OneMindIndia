@@ -1,0 +1,12 @@
+.custombtn{
+    background: #bdbdbd !important;
+    color: black  !important;
+    width: 351px !important;
+}
+.btn-position{
+float: right;
+}
+
+.header-cnt{
+    margin-bottom: 56px;
+}
